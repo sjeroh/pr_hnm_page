@@ -11,7 +11,12 @@
 
 /* 전체 레이아웃 */
 
-#warp {}
+body{
+    background-color: #faf9f8;
+}
+#warp {
+    
+}
 
 #header {
     padding: 0 32px 0;
@@ -43,19 +48,40 @@
     line-height: 67px;
 }
 
-.header .left_header li.app_down {}
+.header .left_header li.app_down {
+    position: relative;
+    display: inline-block;
+    margin-top: 22px;
+}
 
-.header .left_header li.app_down a {}
+.header .left_header li.app_down>a {
+    height: 24px;
+    width: 24px;
+    background: url(../img/dots.svg) no-repeat center;
+    right: 0;
+    top: 0;
+}
 
 .header .left_header li.app_down a span {}
 
-.header .left_header li.app_down a ul {}
+.header .left_header li.app_down ul {
+    display: none;
+    margin-top: 22px;
+    margin-left: -11px;
+
+}
 
 .header .left_header li.app_down ul li {
     float: none;
 }
 
-.header .left_header li.app_down ul li a {}
+.header .left_header li.app_down ul li a {
+height: 16px;
+line-height: 16px;
+    background-color: #fff;
+    display: block;
+    padding: 8px 16px;
+}
 
 
 .header .header_mid_logo {

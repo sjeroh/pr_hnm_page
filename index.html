@@ -20,8 +20,8 @@
                     <li><a href="#">고객 서비스</a></li>
                     <li><a href="#">뉴스레터</a></li>
                     <li><a href="#">매장 찾기</a></li>
-                    <li class="app_down">
-                        <a href="#">
+                    <li class="app_down clearfix">
+                        <a href="#" class="ir">
                             <span>
                                 앱 다운로드
                             </span>
@@ -47,7 +47,30 @@
         </header>
     </div> <!-- //wrap -->
 
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
+    <script>
+
+        // 한쪽만 작동
+        // $('.left_header li.app_down>a').click(function(){
+        //     // $('.left_header li.app_down ul').css({display:'block'});
+        //     if ($('.left_header li.app_down ul').css({display:'block'})){change.css({display:'none'})}
+        //     else if($('.left_header li.app_down ul').css({display:'none'})){change.css({display:'block'})}
+        // });
+
+        let dots = $('.left_header li.app_down>a')
+        let tab = $('.left_header li.app_down ul')
+
+        dots.click(function(){
+            // $('.left_header li.app_down ul').css({display:'block'});
+            if (tab.css("display") == "none"){
+                tab.show();
+            }
+            else {
+                tab.hide();
+            }
+        });
+    </script>
 
 </body>
 
