@@ -23,6 +23,17 @@ body{
     font-size: 13px;
 }
 
+#nav{}
+
+
+
+
+/* 중심영역 */
+.container{
+    width: 1008px;
+    margin: 0 auto;
+    position: relative;
+}
 
 
 
@@ -127,3 +138,28 @@ line-height: 16px;
     vertical-align: middle;
    
 }
+
+/* nav */
+
+/* .any{
+    text-align: center;
+    margin: 0 auto;
+
+} */
+
+#nav{
+    text-align: center;
+    margin: 0 auto;
+
+}
+.nav_top{
+    /* width: 100%; */
+    display: inline-block;
+
+}
+.nav_top li{
+    float: left;
+    padding: 5px;
+
+}
+.nav_top li a{}
