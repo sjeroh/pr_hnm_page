@@ -37,10 +37,10 @@
                 <!-- // mid_logo -->
                 <ul class="right_header clearfix">
                     <li><a href="#">
-                        <img src="img/user.svg" alt="user"> <span>로그인</span>                  </a></li>
+                            <img src="img/user.svg" alt="user"> <span>로그인</span> </a></li>
                     <li><a href="#">
-                        <img src="img/heart.svg" alt="fav"><span>즐겨찾기</span> 
-                    </a></li>
+                            <img src="img/heart.svg" alt="fav"><span>즐겨찾기</span>
+                        </a></li>
                     <li><a href="#"><img src="img/bag.svg" alt="bag"><span>쇼핑백 (0)</span> </a></li>
                 </ul> <!-- //right_header -->
             </div> <!-- header -->
@@ -63,19 +63,67 @@
                     </ul>
                 </div> -->
 
-                    <ul class="nav_top clearfix">
-                        <li><a href="#">여성</a></li>
-                        <li><a href="#">Divided</a></li>
-                        <li><a href="#">남성</a></li>
-                        <li><a href="#">신생아/유아</a></li>
-                        <li><a href="#">아동</a></li>
-                        <li><a href="#">H&M HOME</a></li>
-                        <li><a href="#">스포츠</a></li>
-                        <li><a href="#">Sale</a></li>
-                        <li><a href="#">지속가능성</a></li>
-                    </ul>
+                <ul class="nav_top clearfix">
+                    <li><a href="#">
+                            <span>여성</span> 
+                        </a>
+                            <ul>
+                                <li>
+                                    신상품
+                                </li>
+                                <li>
+                                    <a href="#">모두 보기</a>
+                                </li>
+                                <li>
+                                    <a href="#">의류</a>
+                                </li>
+                                <li>
+                                    <a href="#">신발 & 액세서리</a>
+                                </li>
+                                <li>
+                                    <a href="#">언더웨어 & 나이트웨어</a>
+                                </li>
+                                <li>
+                                    <a href="#">현재 트렌드</a>
+                                </li>
+                                <li>
+                                    <a href="#">Mugler H&M</a>
+                                </li>
+                                <li>
+                                    <a href="#">Stay Cool</a>
+                                </li>
+                                <li>
+                                    <a href="#">COOLMAX 베이직</a>
+                                </li>
+                                <li>
+                                    <a href="#">Brolga x H&M</a>
+                                </li>
+                                <li>
+                                    <a href="#">리넨 스타일</a>
+                                </li>
+                                <li>
+                                    <a href="#">Best Seller</a>
+                                </li>
+                                <li>
+                                    <a href="#">위클리 베스트 셀러</a>
+                                </li>
+                                <li>회원 특별가
+                                    <a href="#">회원 특별가</a>
+                                </li>
+                            </ul>
+                        
+                    </li>
+                    <li><a href="#">Divided</a></li>
+                    <li><a href="#">남성</a></li>
+                    <li><a href="#">신생아/유아</a></li>
+                    <li><a href="#">아동</a></li>
+                    <li><a href="#">H&M HOME</a></li>
+                    <li><a href="#">스포츠</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">지속가능성</a></li>
+                </ul>
 
-    
+
             </div>
         </nav>
     </div> <!-- //wrap -->
@@ -83,7 +131,6 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
     <script>
-
         // 한쪽만 작동
         // $('.left_header li.app_down>a').click(function(){
         //     // $('.left_header li.app_down ul').css({display:'block'});
@@ -94,12 +141,11 @@
         let dots = $('.left_header li.app_down>a')
         let tab = $('.left_header li.app_down ul')
 
-        dots.click(function(){
+        dots.click(function () {
             // $('.left_header li.app_down ul').css({display:'block'});
-            if (tab.css("display") == "none"){
+            if (tab.css("display") == "none") {
                 tab.show();
-            }
-            else {
+            } else {
                 tab.hide();
             }
         });
