@@ -23,17 +23,6 @@ body{
     font-size: 13px;
 }
 
-#nav{}
-
-
-
-
-/* 중심영역 */
-.container{
-    width: 1008px;
-    margin: 0 auto;
-    position: relative;
-}
 
 
 
@@ -137,39 +126,4 @@ line-height: 16px;
     margin-top: 1px;
     vertical-align: middle;
    
-}
-
-/* nav */
-
-/* .any{
-    text-align: center;
-    margin: 0 auto;
-
-} */
-
-#nav{
-    font-size: 1rem;
-    text-align: center;
-    margin: 50px auto 0; 
-
-}
-.nav_top{
-    /* width: 100%; */
-    display: inline-block;
-
-}
-.nav_top li{
-    float: left;
-    padding-right: 16px;
-
-}
-
-.nav_top li:last-child{
-    padding-right: 0;
-}
-
-.nav_top li a{}
-
-.nav_top li ul li{
-    float: none;
 }
